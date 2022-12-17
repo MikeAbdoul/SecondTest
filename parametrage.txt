@@ -97,8 +97,14 @@ git checkout main
 git merge cagnotte
 
 
+# Pour clonner un déppôt distant chez soi
+git clone https://github.com/OpenClassrooms-Student-Center/7162856-G-rez-Git-et-GitHub.git
 
 
+# Pour ce faire un raccourci d'accès
+git remote add nomCourt https://github.com/OpenClassrooms-Student-Center/7162856-G-rez-Git-et-GitHub.git
  
 
+# Pour récupérer les mises à jour dépuis github pour chez soi.
+git pull origin main
 
