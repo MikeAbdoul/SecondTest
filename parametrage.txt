@@ -46,7 +46,7 @@ Voir le status du dépôt local pour savoir s'il y a des modifications en attent
 git status
 Rélier ledépot local au depot distance
 
-git remote add origin https://github.com/MikeAbdoul/OpenclassroomsProject.git
+git remote add origin https://github.com/MikeAbdoul/SecondTest.git
 
 git branch -M main
 
