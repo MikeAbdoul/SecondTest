@@ -57,3 +57,48 @@ git push -u origin main
 # Saisir le nom d'utiliseur de github
 # Le mot de passe correspond au token généré sur le site de githun
 
+
+# Pour connaître les branches présentes dans notre projet
+git branch
+
+# L’étoile signifie que c’est la branche sur laquelle on est situé, et que c’est sur celle-ci qu'actuellement vous réalisez vos modifications.
+
+
+
+######### Je vous conseille fortement de créer une branche si votre modification est lourde, compliquée, ou si elle risque d’avoir des impacts importants sur votre projet. ############
+
+# Créer une nouvelle branche nommée
+git branch cagnotte
+
+
+# Pour basculer de branche, nous allons utiliser
+git checkout cagnotte
+
+# Encore si on veut connaître les branches présentes dans notre projet
+git branch
+
+
+# On peut ajouter de nouveau fichier et faire des modifications sur cette nouvelle branche
+ 
+# Vous devez créer un "commit" grâce à la commande
+git commit -m "Réalisation de la partie cagnotte côté front end"
+
+
+# envoyer des commits du repository vers le dépôt distant GitHub 
+git push -u origin cagnotte
+
+
+# Fusionnez votre travail avec la commande git merge
+# On révient sur la branch à partir de laquelle, on doit fusionner
+git checkout main
+
+
+# Maintenant que vous êtes dans votre branche principale, vous pouvez fusionner votre branche "cagnotte" à celle-ci grâce à la commande suivante
+git merge cagnotte
+
+
+
+
+ 
+
+
