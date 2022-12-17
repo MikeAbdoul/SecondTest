@@ -48,7 +48,7 @@ git status
 
 # Rélier ledépot local au depot distance
 git remote add origin https://github.com/MikeAbdoul/SecondTest.git
-
+# relié le dépôt local au dépôt distant
 git branch -M main
 
 # envoyer des commits du repository vers le dépôt distant GitHub 
